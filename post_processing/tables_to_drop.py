@@ -1,0 +1,20 @@
+TABLES_TO_DROP = [
+    "10427953_page_4_table_0",
+    "9475192_page_5_table_0",
+    "10427953_page_4_table_0",
+    "29019869_page_5_table_0",
+    "11567230_page_4_table_0",
+    "29466768_page_3_table_0",
+    "19033865_page_10_table_0",
+    "25744580_page_4_table_0",
+    "25074678_page_7_table_0",
+    "23465277_page_3_table_0",
+    "35621684_page_4_table_0",
+    "27767100_page_3_table_0",
+    "27767100_page_4_table_1",
+    "11422476_abstract",
+    "16499955_page_3_table_0",
+    "26200099_abstract",
+    "19033865_abstract",
+    '10667156_page_1_table_0'
+]

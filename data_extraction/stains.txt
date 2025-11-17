@@ -1,0 +1,162 @@
+AE1 / AE3
+AE
+AE1-3
+AFP
+ALK
+AMACR
+AMH
+ARID1A
+Actin
+Alcian Blue
+Alpha smooth muscle
+Arginase
+B72.3
+BCL2
+BRG1
+BerEP4
+CA125
+CAM 5.2
+CD10
+CD117
+CD13
+CD14
+CD15
+CD20
+CD30
+CD31
+CD34
+CD43
+CD45
+CD56
+CD58
+CD68
+CD99
+CDX2
+CEA
+CK
+CK 5/6
+CK1
+CK17
+CK18
+CK19
+CK20
+CK7
+Calcitonin
+Caldesmon
+Calretinin
+Chloroacetate esterase
+Chromogranin
+Claudin4
+Cyclin D1
+Cytokeratin
+D2-40
+DOG1
+Desmin
+Diastase resistant intracytoplasmic material
+E-cadherin
+EGFR
+EMA
+ER
+ER beta
+FOXL2
+Fat stains on tissue
+GATA3
+GCDFP-15
+GFAP
+GLUT5
+Glycophorin A
+Glypican 3
+H-Caldesmon
+HER2
+HMB-45
+HNF1β
+HepPar1
+INSM1
+Inhibin
+Inhibin A
+Keratin
+Ki67
+LCA
+Laminin
+Lysozyme
+MA903
+MART1
+MIC2
+MLH1
+MMR
+MOC31
+MSH2
+MSH6
+MUC2
+Mammaglobin staining
+Mucicarmine
+Muscle specific actin
+Myeloperoxidase
+Myf-4
+MyoD1
+Myogenin
+Myoglobin
+NANOG
+NSE
+Napsin A
+Neurofilament
+Neuron specific enolase
+OCT 3/4
+OCT4
+Oil Red O
+PAP
+PAS
+PAS / diastase
+PAS diastase resistant
+PASD
+PAX6
+PAX8
+PCNA
+PLAP
+PMS2
+PR
+PSA
+PTH-related protein
+Pan-cytokeratin
+Pancytokeratin
+Pankeratin
+RCC
+Reticulin
+S100
+S100P
+SALL4
+SATB2
+SF1
+SMA
+SOX2
+Smooth muscle actin
+Sudan III
+Synaptophysin
+TAG72
+TFE3
+TTF1
+Thyroglobulin
+Villin
+Vimentin
+WT1
+Weak PAS
+hCG
+hPL
+p16
+p53
+p63
+hcgβ
+hcg
+αinhibin
+inhibin
+inhibina
+αinhibin
+betacatenin
+αcatenin
+βcatenin
+γcatenin
+sscatenin
+δcatenin
+catenin
+napsina
+napsin

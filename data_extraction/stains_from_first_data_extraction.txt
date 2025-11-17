@@ -1,0 +1,1049 @@
+egfr
+her-2-neu
+dupan2
+p27kip1
+estrogen receptor
+progesterone receptor
+alpha-inhibin
+emi1
+ttf1
+gpc-3
+p63
+cytokeratin 34be12
+cytokeratin 17
+cam5.2
+er
+pr
+p-53
+her-2/neu
+ki-67
+galectin-3
+cyclin d1
+pax-8
+wt-1
+sf1
+inhibin
+mesothelin
+mammaglobin
+gcdfp-15
+hnf4 alpha
+hnf4 alpha p1
+hnf4 alpha p1/p2
+muc-2
+muc5ac
+ny-eso1
+cd3
+cd4
+cd8
+cd25
+foxp3
+tia-1
+granzyme b
+cd20
+mhc class i
+mhc class ii
+tp-53
+bax
+bcl2
+cd10
+vimentin
+calretinin
+cytokeratin
+epithelial membrane antigen
+cdx2
+pdx-1
+ck7
+ck20
+ca125
+d2-40
+pdcd4
+mart-1
+pcna
+wnt-1
+fzd1
+wnt5a
+beta-catenin
+pten
+aurora a
+aurora b
+aurka
+epithelial cell adhesion molecule
+e-cadherin
+p16
+her-2
+her1
+sall4
+afp
+glypican-3
+ema
+podoplanin
+thrombomodulin
+hbme1
+tag-72
+ber-ep-4
+sirt1
+upa
+upar
+sox2
+nanog
+oct3/4
+foxl2
+ykl-40
+brca1
+brca2
+mlh1
+clic4
+alpha-sma
+hsp17
+ca19.9
+muc-1
+oestrogen receptor
+progestin receptor
+gonadotropin-releasing hormone receptor
+id-1
+cd34
+factor viii-related antigen
+igfbp-3
+thyroid transcription factor 1
+hmlh1
+hmsh2
+cox2
+nm23
+her-2/neu ecd
+smooth muscle actin
+desmin
+cd 99
+inhibin-alpha
+ca 19-9
+hmga2
+let-7b
+beta-inhibin
+bmi-1
+cd31
+cd105
+sox-9
+aromatase
+p450scc
+p450c17alpha
+mmtv-like virus env dna
+eralpha
+pgr
+telomere-specific fish
+sxr
+p16(ink4)
+pax-2
+cd99
+melan a
+androgen receptor
+ae1/3
+moc-31
+survivin
+chromogranin a
+aurora-a
+fas
+fasl
+fap-1
+bcl-x(l)
+p proteins
+p-akt
+perk
+dipeptidase 1
+cytokeratin 7
+melan-a
+kl1
+cd117
+s-100
+hmb45
+oct-4
+pax6
+cd56
+cd30
+alpha-fetoprotein
+hnf
+pdcd5
+star protein
+vascular endothelial growth factor c
+matrix metalloproteinase-2
+p27
+c-myc
+rb
+parp
+er-beta
+msh2
+msh6
+cxcl12
+lamin a/c
+arid1a
+amacr
+cytokeratin (ae1-ae3)
+tubulin
+p-gp
+gst-pi
+topo-ii
+lrp
+ny-br-1
+p16(ink4a)
+pr-b
+hpv e6
+xor
+ercc1
+low molecular weight keratin
+epidermal growth factor receptor
+lewis y antigen
+tgf-beta1
+ar
+il6
+pai-1
+puma
+baf250a
+hcg
+lhr
+fshr
+67lr
+wwox
+actinin-4
+hepatocyte nuclear factor-1beta
+cea
+tcl1
+tiam1
+er alpha
+pr-a
+s-100a1
+cd24
+delta-catenin
+melan a (a103)
+cyr61
+ctgf
+pik3ca
+p21
+c-kit
+metallothionein
+rcc ma
+brachyury
+flip
+bit1
+cyclina2
+glut3
+fkbp65
+col1a1
+mapk
+topoisomerase ii alpha
+bag-1
+bag-3
+bag-4
+aldh1
+tweak
+fn14
+pelp1
+cdkn2a
+mib-1 (ki-67)
+clu
+vegf
+ezh2
+imp3
+claudin-18
+reg4
+hnf1-beta
+mmr proteins
+p19(ink4d)
+cd44
+napsin a
+igf-1r
+fli-1
+rb1
+cyclin e1
+smarca2
+smarca4
+smarcb1
+muc6
+mdr1
+bmp2
+fst
+vegf-r1
+vegfr2
+vegf-r3
+vegf-receptor
+cytoglobin
+mib-1
+tr
+crbp-1
+snail
+foxm1
+aeg-1
+pax-8 (pab)
+pax-8 (mab)
+gata-3
+er-beta2
+cleaved caspase-3
+cytochrome c
+s-100p
+satb2
+erbb2
+brg1
+ini1
+inpp4b
+dsc3
+fscn1
+slp-2
+ck5
+cep55
+nf-kappab p65
+grb7
+ttf1 (spt24 clone)
+ttf1 (8g7g3/1 clone)
+vegf-a
+pms2
+akap95
+cyclind1
+cycline1
+cx43
+cd133
+tf1
+alphavbeta6 integrin
+epcam
+fralpha
+nf-kappab
+alk
+lin28
+mdm2
+pd-1
+pd-l1
+clec14a
+p14
+nestin
+cd68
+claudin-4
+hpaf1/pd2
+gnrhr
+her-2 icd
+her-2 ecd
+he4
+ppa1
+satb2 and villin
+satb2 and ck20
+ck2alpha
+pdgf-b
+cytokeratin 5/6
+lewis(y) antigen
+smad3
+gata4
+not_provided
+chromogranin
+synaptophysin
+tfe3
+sparc
+vegf-c
+vegf-d
+ve-cadherin
+p16ink4
+hnf1b
+napsin-a
+epha1
+ss-catenin
+ido
+fox3p
+agr3
+pkm2
+slug
+twist 1
+twist 2
+zeb 1
+zeb 2
+apaf-1
+aquaporin-5
+claudin 4
+n-cadherin
+prrx1
+snai1
+twist1
+asct2
+p-mtor
+ccng1
+notch3
+cryab
+her3
+pi3k
+akt
+mtor
+s6
+p-s6
+mmr
+msh2/6
+cd146
+alk (d5f3)
+cd163
+ccr6
+il-17
+cd95l
+mnf116
+tex19
+braf v600e
+pms2/mlh1
+msh2/msh6
+ck-18
+xcl1
+thyroglobulin
+calcitonin
+islet1
+sstr2a
+mismatch repair proteins
+estrogen receptors
+hinf1b
+pms
+ssea1
+ssea4
+mapk1
+mapk3
+palladin
+p40
+mic2
+mtap
+mismatch repair
+cldn18
+mlh1/pms2
+sr-b1
+enpp1
+cadm1
+stat3
+igf2bp3
+met
+tpm3.1
+pd-l1 (e1l3n clone)
+pd-l1 (22c3 clone)
+cd147
+bap1
+ck17
+krt7
+a antigen
+b antigen
+claudin18.2
+l1cam
+vista
+claudin-10
+h3k27me3
+foxa2
+msln
+arid1b
+mismatch repair protein
+keratin 7
+keratin 20
+cldn18.2
+inhibin a
+ckae1/3
+caix
+muc4
+dpc4
+ctla4
+sox17
+egfr (erbb-1) ihc
+egfr (erbb-1) fish
+her-2-neu (erbb-2) ihc
+egfr fish
+her-2-neu fish
+α-inhibin
+ca19-9
+cyclin e
+p-53/p21
+hmfg-2
+b72.3
+ca 125
+hcgβ
+her4
+glypican 3
+fascin-1
+cortactin
+amh
+pgds
+shh
+prr
+hnf4α p1/p2
+hnf4α p1
+hnf4α p2
+hnf4α
+8g7g3/1/dako
+spt24/vision
+8g7-g3/1
+spt24
+bgx-397a
+8g7g3/1/vision
+spt24/dako
+vhnf1
+e-cadh
+i-nos
+hif-1α
+hai-1
+hai-2
+ecad
+s-100a4
+unknown
+mmp-2
+mmp-9
+β-catenin
+thrombomudulin
+wt 1
+moc 31
+tag 72
+pan cytokeratin
+plap
+periodic acid-schiff
+mucicarmine
+alcian blue
+kras
+msi
+fancf
+ihc
+sscp
+fasay
+sequence
+bag-4/sodd
+hsp70
+hsp27
+bcl-xl
+pik3ca-110
+pik3ca-110-alpha
+p-akt (ser473)
+braf
+pik3ca fish
+erα
+erβ
+cd138
+cyclin a
+cyclin b1
+cyclin f
+ki-67-li
+igfbp-3 methylation
+serological her-2/neu
+immunohistochemical her-2/neu
+mmp7
+tff1
+tff3
+ca xii
+foxa1
+sma
+inhibin α
+nasp
+mre11
+rcas1
+rad50
+nbs1
+eif5a
+tab 250
+hmga1
+dna-mismatch repair proteins
+keratin ae1/ae3
+cam 5.2
+chromogranin/synaptophysin
+baf-47/ini-1
+mmtv-like virus env pcr
+γh2ax
+tic
+dom
+p-53 protein
+mir-21
+h-cald
+smmhc
+hdac8
+p16ink4a
+total erk
+phospho-erk
+star
+rcc
+foxl2 c.402c>g mutation
+α-sma
+cdk2
+cxcr4
+methylation
+high cd8+ t lymphocytes
+presence foxp3+ t lymphocytes
+down-regulation mhc class i
+up-regulation mhc class ii
+erβ1
+erβ2
+stmn1
+epithelial membrane antigen (ema)
+smooth-muscle actin (sma)
+cd21
+hsp90
+ki-67 protein
+egr1
+tgf-β1
+lewis y
+ing4 mrna
+ing4 protein
+ing4
+actinin-4/actn4
+gal-1
+urg4
+hnf1-β
+cd46
+cd55
+cd59
+pclp1
+δ-catenin
+9p loh
+cdkn2a hd/mutation
+nras
+laminin γ1
+laminin α3
+gcdf15
+kpna2
+telomerase
+p16 ink4a
+her-2 ihc
+her-2 fish
+her-2 real-time pcr
+p-53 ihc
+agr2
+53bp1 protein
+53bp1 mrna
+53bp1
+bit 1
+tspy
+vasa
+scf
+ck19
+topoll alpha
+bag-1 nuclear
+bag-1 cytoplasmic
+bag-3 nuclear
+bag-3 cytoplasmic
+bag-4 nuclear and cytoplasmic
+pelp1/er-beta
+ck5/6
+crt
+inh
+akr1c3
+cyp19
+α-tubulin and γ-tubulin
+p19ink4d
+brca1/2
+p16 (cdkn2a)
+tff3 [mrna]
+dkk1
+ccc
+enoca
+hgsc muc
+arid1a (baf250a)
+caspase-3
+aif
+bccip mrna
+cd103
+melanin
+keratin
+calret
+inha
+efemp1
+efemp1 mrna
+ac-h3
+ac-h4
+psmad2
+pan-k
+h2ax
+foxj1
+arid1a ihc
+pten ihc
+pik3ca mutation
+znf217 amplification
+cstb
+muc-1-/muc5ac+
+ctnnb1
+foxl2 codon 134
+srap
+evmm
+lvi
+hbxip
+skp2
+nrp-1
+n cadherin
+il-18
+il-18bp
+il-18r
+mmr-ihc
+ap-2y
+pdpn
+mage-a4
+stic
+bat25
+emt
+sox7
+runx3 methylation
+runx3
+anxa2
+napsin
+arid1a and p-53
+annexin4
+fasn
+il-8
+cd45
+hmof
+astrocyte-elevated gene-1
+lamin a
+amacr (p504s)
+cap1
+mmr protein
+pax-8 mab
+pax-8 pab
+lats1
+lats2
+cyclin g1
+sbt
+conventional hg-sc
+abnormal mitosis
+psammoma body
+kras exon 1
+braf exon 15
+pik3ca exon 9
+pik3ca exon 20
+tp-53 mutation
+eif3a
+kras/braf
+il-8ra
+il-8rb
+inhibin alpha subunit r1
+inhibin alpha subunit 20/32
+inhibin alpha subunit 44/19
+inhibin alpha subunit 44/53
+amh 39/39
+amh 39/48
+amh 39/72
+pan-cytokeratin
+α-inhibin calretinin
+a-inhibin calretinin
+synapto
+chromo
+α-actin
+pof1b
+ck20 and/or cdx2
+keratin cocktail
+ck8/18
+c14orf166
+gfap
+gfap-δ
+olig2
+mbp
+neun
+schwann/2e
+lin28a
+ttf1 clone spt24
+ttf1 clone 8g7g3/1
+ttf1 (clone spt24)
+p504s
+pin dual (hmwk and p63)
+lmwk
+hmwk
+α-catenin
+γ-catenin
+vm (vasculogenic mimicry)
+alpha-fetoprotein (afp)
+hepatocyte paraffin 1
+hep par 1
+def6
+ape1
+c-met
+mmp-14
+ccne1
+htert
+cyclin e1 ihc
+gpr56
+topo iia
+intraepithelial pd-l1
+mesenchymal pd-l1
+intraepithelial cd8+ til
+mesenchymal cd8+ til
+dmmr
+sirt2
+cdx2/ck20
+cdx2/villin
+satb2/ck20
+satb2/villin
+ck2α
+pdgf
+stromal p16
+capn4
+opn
+lewis(y)
+ho-1
+erβ5
+brca-negative
+fpr2 mrna
+fpr2
+vash1
+mvd
+lvd
+villin
+heppar1
+pas and ve-cadherin
+pas
+mig-7 mrna
+cytokeratin (ck)7
+oestrogen receptor (er)
+pum1
+ß-catenin
+s-100a7
+fap
+dmlh1/pms2
+dmsh2/msh6
+bat26
+nr21
+nr24
+mono-27
+serum cea
+serum ca 15-3
+serum ca 125
+her-2 ish
+her-2 ihc sp3
+her-2 ihc 4b5
+her-2 ihc ht
+oct-4/ki-67
+ssea-4/ki-67
+cd44/ki-67
+lgr5/ki-67
+aldh/ki-67
+dpy30
+cox1
+immunoprofile group i
+insm1
+otp
+ascl1
+chga
+syp
+psat1
+mmrd
+cd43
+granzyme-b
+tomm34
+dicer1
+androgens
+wt-1+/he4+
+p-53+/he4+
+any 2+
+her-2 sish
+her3 ihc
+her3 fish
+livin
+sstr5
+cap2
+swi/snf
+uchl1
+cav1
+atg4c
+fibroblastic cav1
+fibroblastic atg4c
+tert promoter
+anxa4
+nf-κb p50
+gli1
+gli2
+cytoplasmic gli1
+nuclear gli1
+cytoplasmic gli2
+nuclear gli2
+eif5a2
+cebpa
+ck
+cr
+h-caldesmon
+idylla
+tapestation 4200
+cd68+ om-tam
+cd163+ om-tam
+cd68+ cls
+cd163+ cls
+aldh1a1
+grp75
+vdac1
+ip3r
+mtp-53
+gst-π
+p-53 (ihc)
+arid1a (ihc)
+pten (ihc)
+erbb2 (ihc)
+pik3ca e9
+pik3ca e20
+nusap1
+ncapg
+rtn2
+statmin
+bcor
+lmp2
+puf60
+cavin1
+sptan1
+fbln5
+eif3b
+mob1b
+emilin2
+sptbn1
+cavin2
+cd70
+hla-g
+anti hif-1α
+cxcl1
+cxcl2
+dusp1
+nfkbiz
+ctr1
+abcc1
+bcrp
+pak4
+oct 3/4
+AE1 / AE3
+AE1-3
+AFP
+ALK
+AMACR
+AMH
+ARID1A
+Actin
+Alcian Blue
+Alpha smooth muscle
+Arginase
+B72.3
+BCL2
+BRG1
+BerEP4
+CA125
+CAM 5.2
+CD10
+CD117
+CD13
+CD14
+CD15
+CD20
+CD30
+CD31
+CD34
+CD43
+CD45
+CD56
+CD58
+CD68
+CD99
+CDX2
+CEA
+CK
+CK 5/6
+CK1
+CK17
+CK18
+CK19
+CK20
+CK7
+Calcitonin
+Caldesmon
+Calretinin
+Chloroacetate esterase
+Chromogranin
+Claudin4
+Cyclin D1
+Cytokeratin
+D2-40
+DOG1
+Desmin
+Diastase resistant intracytoplasmic material
+E-cadherin
+EGFR
+EMA
+ER
+ER beta
+FOXL2
+Fat stains on tissue
+GATA3
+GCDFP-15
+GFAP
+GLUT5
+Glycophorin A
+Glypican 3
+H-Caldesmon
+HER2
+HMB-45
+HNF1β
+HepPar1
+INSM1
+Inhibin
+Inhibin A
+Keratin
+Ki67
+LCA
+Laminin
+Lysozyme
+MA903
+MART1
+MIC2
+MLH1
+MMR
+MOC31
+MSH2
+MSH6
+MUC2
+Mammaglobin staining
+Mucicarmine
+Muscle specific actin
+Myeloperoxidase
+Myf-4
+MyoD1
+Myogenin
+Myoglobin
+NANOG
+NSE
+Napsin A
+Neurofilament
+Neuron specific enolase
+OCT 3/4
+OCT4
+Oil Red O
+PAP
+PAS
+PAS / diastase
+PAS diastase resistant
+PASD
+PAX6
+PAX8
+PCNA
+PLAP
+PMS2
+PR
+PSA
+PTH-related protein
+Pan-cytokeratin
+Pancytokeratin
+Pankeratin
+RCC
+Reticulin
+S100
+S100P
+SALL4
+SATB2
+SF1
+SMA
+SOX2
+Smooth muscle actin
+Sudan III
+Synaptophysin
+TAG72
+TFE3
+TTF1
+Thyroglobulin
+Villin
+Vimentin
+WT1
+Weak PAS
+hCG
+hPL
+p16
+p53
+p63
+hcgβ
+hcg
+αinhibin
+inhibin
+inhibina
+αinhibin
+betacatenin
+αcatenin
+βcatenin
+γcatenin
+sscatenin
+δcatenin
+napsina
