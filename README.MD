@@ -2,6 +2,7 @@
 
 This repository accompanies the scientific article *Stainology*, providing all scripts and pipeline components used to extract, process, and structure immunohistochemistry (IHC) data from retrieved relevant scientific publications.
 
+
 ---
 
 ## **Repository Structure**

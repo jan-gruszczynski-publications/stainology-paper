@@ -233,11 +233,12 @@ class MergeDifferingByColumns(BaseModel, AbstractDFConverter):
 
 class MergeDifferingByColumnsPerTableID(BaseModel, AbstractDFConverter):
     do_remove: bool = True
+    differing_columns: list[str] = ['expr_score', 'expr_intensity', 'expr_threshold', 'expr_distribution']
 
     def __call__(self, df: pd.DataFrame) -> pd.DataFrame:
         df = df.copy(deep=True)
 
-        merger = MergeDifferingByColumns()
+        merger = MergeDifferingByColumns(differing_columns=self.differing_columns)
         merger.tables_to_drop = []
         merger.unique_errors = []
 

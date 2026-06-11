@@ -170,3 +170,9 @@ cython_debug/
 /experiments/concats/
 /pdfs/
 /post_processing/database_versions/
+/post_processing/database_versions2/
+/post_processing/concats/
+/data_retrieval/
+/post_processing/database_versions3/
+/add_doi_to_db_files.ipynb
+/add_doi_to_db_filesv2.ipynb

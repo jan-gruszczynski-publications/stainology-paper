@@ -5,10 +5,10 @@ import litellm
 import pandas as pd
 from langchain_core.prompts import PromptTemplate
 from litellm.types.utils import ModelResponse
-from tqdm import tqdm
 
 from data_extraction.utils import encode_image, save_to_txt_file, save_json_to_file, extract_json_from_text
 from data_extraction.who_classification_prompt import CLASSIFICATION_PROMPT_NO_JUSTIFICATION
+from post_processing.droppers import DropNARowsInColumns, DropIfNNAInRow
 from post_processing.group_utils import SelectHistologicalGroupFromTable
 
 
@@ -90,6 +90,8 @@ def process_PMID(_PMID: str,
         print(f"Warning: No data for PMID {_PMID} in concat_df. Skipping.")
         return
 
+    one_paper_df = DropNARowsInColumns(columns=['stain', 'tumour', 'expr_type', 'expr_n'])(one_paper_df)
+    one_paper_df = DropIfNNAInRow(n=2, columns=['total_N', 'expr_n', 'expr_pct'])(one_paper_df)
     one_paper_df = SelectHistologicalGroupFromTable()(one_paper_df)
 
     tumour_names_df = one_paper_df[['tumour', 'group', 'group_cat', 'notes', 'table_id']].copy()

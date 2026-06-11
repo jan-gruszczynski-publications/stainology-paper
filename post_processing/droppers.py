@@ -124,9 +124,33 @@ class DropAllRowsThatHaveNotNumericSigns(BaseModel, AbstractDFConverter):
 
     def __call__(self, df: pd.DataFrame) -> pd.DataFrame:
         df = df.copy(deep=True)
-        mask = df[self.column].apply(lambda x: isinstance(x, (int, float)) or pd.isna(x))
+
+        def is_numeric_or_nan(x):
+            if isinstance(x, (int, float)):
+                return True
+            if pd.isna(x):
+                return True
+            if isinstance(x, str):
+                try:
+                    float(x)
+                    return True
+                except ValueError:
+                    return False
+            return False
+
+        mask = df[self.column].apply(is_numeric_or_nan)
         print("Removed rows with non-numeric signs in column", self.column, ":", df.shape[0] - df[mask].shape[0])
         return df[mask]
+
+# Old version removed after peer review.
+# class DropAllRowsThatHaveNotNumericSigns(BaseModel, AbstractDFConverter):
+#     column: str = 'expr_pct'
+#
+#     def __call__(self, df: pd.DataFrame) -> pd.DataFrame:
+#         df = df.copy(deep=True)
+#         mask = df[self.column].apply(lambda x: isinstance(x, (int, float)) or pd.isna(x))
+#         print("Removed rows with non-numeric signs in column", self.column, ":", df.shape[0] - df[mask].shape[0])
+#         return df[mask]
 
 
 class TakeIfAllInColumnsNA(BaseModel, AbstractDFConverter):

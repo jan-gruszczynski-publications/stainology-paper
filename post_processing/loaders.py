@@ -6,7 +6,7 @@ import pandas as pd
 
 from post_processing.io_utils import load_json_from_file
 
-CONTENT_ROOT = "C:\\Users\\***\\Desktop\\Projects\\stainology-dashboard\\"
+CONTENT_ROOT = "C:\\Users\\***\\Desktop\\Projects\\stainology\\"
 OLD_CONTENT_ROOT = "C:\\Users\\***\\Desktop\\Projects\\***"
 
 
