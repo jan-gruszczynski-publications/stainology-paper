@@ -199,7 +199,7 @@ class MergeDifferingByColumns(BaseModel, AbstractDFConverter):
                 # print(group_df)
                 neg_row, row_idx, not_negative_indexes_to_drop = self._take_negative_if_possible(group_df)
                 # print(not_negative_indexes_to_drop)
-                if row_idx:
+                if row_idx is not None:
                     df.loc[row_idx] = neg_row
                 _indexes_to_drop.extend(not_negative_indexes_to_drop)
                 dropped_indexes_num += len(not_negative_indexes_to_drop)
@@ -217,7 +217,7 @@ class MergeDifferingByColumns(BaseModel, AbstractDFConverter):
                 # if there are non nans in expr_score columns:
                 # if not group_df['expr_score'].isna().any():
                 merged_row, row_idx, merged_indexes_to_drop = self._merge_rows_with_positive_exp_score(group_df)
-                if row_idx:
+                if row_idx is not None:
                     df.loc[row_idx] = merged_row
                 indexes_to_drop.extend(merged_indexes_to_drop)
                 dropped_indexes_num += len(merged_indexes_to_drop)

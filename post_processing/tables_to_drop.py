@@ -16,5 +16,6 @@ TABLES_TO_DROP = [
     "16499955_page_3_table_0",
     "26200099_abstract",
     "19033865_abstract",
-    '10667156_page_1_table_0'
+    '10667156_page_1_table_0',
+    "28594898_page_7_table_0"
 ]

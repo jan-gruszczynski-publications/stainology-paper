@@ -90,4 +90,4 @@ def get_papers(path: Path | str = Path("../data/res/papers/*.csv"), relevant: bo
 
     papers.EDAT = pd.to_datetime(papers.EDAT)
 
-    return papers.drop(columns=["Unnamed: 0"])
+    return papers#.drop(columns=["Unnamed: 0"])

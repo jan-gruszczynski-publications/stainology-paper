@@ -12,6 +12,7 @@ class DropDuplicates(BaseModel, AbstractDFConverter):
     """
     A class to drop duplicates using column-specific tolerances.
     """
+    differing_by_only: set[str] = {'table_id', 'tumour', 'expr_type_old', 'stain_old', 'pattern_old'}
     ignore: set[str] = {"table_id", "PT", "total_N", "expr_n"}
     tolerance_cols: list[str] = ['expr_n', 'total_N']  # ['expr_pct', 'total_N', 'expr_n']
     absolute_tolerances: dict[str, float] = {
@@ -23,6 +24,10 @@ class DropDuplicates(BaseModel, AbstractDFConverter):
     mode: Literal["largest_N", "largest_expr_pct", "drop_all"] = "largest"
     minimum_distance_for_largest_N: int = 10
 
+    expr_pct_tolerance: float | None = None  # None = disabled
+    expr_pct_col: str = 'expr_pct'
+    min_total_N_for_pct: float = 8
+
     @model_validator(mode='after')
     def check_tolerances_defined(self) -> 'DropDuplicates':
         for col in self.tolerance_cols:
@@ -30,13 +35,14 @@ class DropDuplicates(BaseModel, AbstractDFConverter):
                 raise ValueError(f"Tolerance for column '{col}' is not defined in absolute_tolerances.")
         return self
 
-    @staticmethod
-    def remove_differing_by_only_table_id(df: pd.DataFrame) -> pd.DataFrame:
+
+    def remove_differing_by_only_table_id(self, df: pd.DataFrame) -> pd.DataFrame:
         before_shape = df.shape
         all_columns = set(df.columns.tolist())
-        all_columns = list(all_columns.difference({'table_id'}))
+        all_columns = list(all_columns.difference(self.differing_by_only))
         df = df.drop_duplicates(subset=all_columns, keep='first')
-        print("Removed", before_shape[0] - df.shape[0], "rows that differed only by table_id.")
+        print("Removed", before_shape[0] - df.shape[0],
+              f"rows that differed only by {str(self.differing_by_only)}.")
         return df
 
     def __call__(self, df: pd.DataFrame, *args, **kwargs) -> pd.DataFrame:
@@ -56,7 +62,7 @@ class DropDuplicates(BaseModel, AbstractDFConverter):
         tolerances_series = pd.Series(self.absolute_tolerances)
 
         grouper = df.groupby(exact_match_cols, dropna=False) if exact_match_cols else [(None, df)]
-
+        _groups = []
         for _, group in grouper:
             if len(group) <= 1:
                 indices_to_keep.extend(group.index.tolist())
@@ -69,6 +75,19 @@ class DropDuplicates(BaseModel, AbstractDFConverter):
                 idx_to_keep = group['total_N'].idxmax()
                 indices_to_keep.append(idx_to_keep)
                 continue
+
+            if self.expr_pct_tolerance is not None:
+                pct_range = group[self.expr_pct_col].max() - group[self.expr_pct_col].min()
+                if pd.notna(pct_range) and pct_range <= self.expr_pct_tolerance:
+                    idx_to_keep = group['total_N'].idxmax()
+                    if group.loc[idx_to_keep, 'total_N'] >= self.min_total_N_for_pct:
+                        indices_to_keep.append(idx_to_keep)
+                        continue
+            # print(group)
+            # _groups.append(group)
+            # add empty row
+            # _groups.append(pd.DataFrame([{}], columns=group.columns))
+            # print("----------")
 
             problems_table_ids.extend(group.table_id.unique().tolist())
             match self.mode:
@@ -109,6 +128,8 @@ class DropDuplicates(BaseModel, AbstractDFConverter):
         print(
             f"Dropped {df_shape_before[0] - df_after_tolerance_drop.shape[0]} duplicates using tolerance logic, ignoring {self.ignore}.")
         print("Problems with duplicates:", len(list(set(problems_table_ids))))
+        # print(list(set(problems_table_ids)))
+        # print(list(set([x.split("_")[0] for x in problems_table_ids])))
 
         # return problems_table_ids, df_after_tolerance_drop
         return df_after_tolerance_drop

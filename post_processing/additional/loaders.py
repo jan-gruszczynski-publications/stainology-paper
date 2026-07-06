@@ -11,7 +11,7 @@ WHO_mapping = pd.read_excel("../concats/Ovary Tumours from WHO Bluebook.xlsx",
 
 
 
-def enrich_df_with_tumour_llm_classification(df: pd.DataFrame) -> pd.DataFrame:
+def enrich_df_with_whole_who_tree_classification(df: pd.DataFrame) -> pd.DataFrame:
     """
     Enriches the DataFrame with detailed WHO classification levels based on the 'matched_tumour' column.
 

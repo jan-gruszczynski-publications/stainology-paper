@@ -68,5 +68,5 @@ def save_json_to_file(data: dict | list, file_path: str | Path):
 
 # load json
 def load_json_from_file(file_path: str | Path) -> dict | list:
-    with open(file_path, 'r') as json_file:
+    with open(file_path, 'r', encoding='utf-8') as json_file:
         return json.load(json_file)
